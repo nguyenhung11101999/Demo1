@@ -1,0 +1,35 @@
+﻿body {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    font-family: NotoSerifJP-Regular;
+    font-size: 13px;
+}
+@font-face {
+    font-family: 'NotoSerifJP-Black';
+    src: url('/content/font/NotoSerifJP-Black.otf') format('opentype');
+}
+@font-face {
+    font-family: 'NotoSerifJP-Bold';
+    src: url('/content/font/NotoSerifJP-Bold.otf') format('opentype');
+}
+@font-face {
+    font-family: 'NotoSerifJP-ExtraLight';
+    src: url('/content/font/NotoSerifJP-ExtraLight.otf') format('opentype');
+}
+@font-face {
+    font-family: 'NotoSerifJP-Light';
+    src: url('../../content/font/NotoSerifJP-Light.otf') format('opentype');
+}
+@font-face {
+    font-family: 'NotoSerifJP-Medium';
+    src: url('../../content/font/NotoSerifJP-Medium.otf') format('opentype');
+}
+@font-face {
+    font-family: 'NotoSerifJP-Regular';
+    src: url('../../content/font/NotoSerifJP-Regular.otf') format('opentype');
+}
+@font-face {
+    font-family: 'NotoSerifJP-SemiBold';
+    src: url('../../content/font/NotoSerifJP-SemiBold.otf') format('opentype');
+}
