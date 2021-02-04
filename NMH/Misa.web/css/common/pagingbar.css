@@ -1,0 +1,57 @@
+﻿.paging-bar {
+    display: flex;
+    align-items: center;
+}
+
+.paging-bar-1 {
+    width: 25%;
+    text-align: center;
+}
+
+    .paging-bar-1 div {
+    }
+
+.paging-bar-2 {
+    width: 50%;
+}
+
+    .paging-bar-2 > div {
+        display: flex;
+        width: 250px;
+        margin: auto;
+    }
+
+        .paging-bar-2 > div > div {
+            margin-left: 5px;
+        }
+
+.paging-bar-3 {
+    width: 25%;
+    text-align: center;
+}
+
+.paging-bar-2 > div {
+    border-radius: 10px;
+}
+
+.btn-cle {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+    .btn-cle:hover {
+        background-color: #12825c;
+    }
+
+.btn-clf {
+    border-radius: 7px;
+}
+.paging-bar-3 select{
+    width: 100px;
+    outline: none;
+} 

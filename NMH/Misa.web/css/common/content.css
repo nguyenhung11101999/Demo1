@@ -1,4 +1,27 @@
-﻿.content{
+﻿.content {
     height: calc(100% - 61px);
-    background-color: #E9EEEE;
+    background-color: white;
+    padding-left: 16px;
+    padding-right: 16px;
 }
+
+    .content .header-content {
+        padding: 16px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+    }
+
+        .content .header-content .title {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .content .header-content .content-feature {
+            position: absolute;
+            right: 16px;
+        }
+
+    .content .paging-bar {
+        height: 56px;
+    }

@@ -1,0 +1,44 @@
+﻿.m-btn {
+    display: flex;
+    align-items: center;    
+    background-color: #019160;
+    border-radius: 4px;
+    height: 40px;
+    font-size: 13px;
+    color: white;
+    font-family: NotoSerifJP-Regular;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+    .m-btn:hover{
+        background-color: #2FBE8E;
+    }
+    .m-btn .m-btn-icon {
+        position: center;
+    }
+    .m-btn .btn-text {
+        margin-left: 8px;
+    }
+.m-second-button {
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    height: 40px;
+    color: #000000;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+}
+    .m-second-button:hover{
+        background-color: #E9EBEE;
+    }
+    .m-btn-refresh {
+        background-image: url('../../content/icon/searhc.png');
+        background-repeat: no-repeat;
+        width: 40px;
+        background-position: center;
+    }
