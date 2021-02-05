@@ -15,5 +15,120 @@
     }
 
     .m-dialog .dialog-content {
-   
+        position: absolute;
+        width: 800px;
+        height: 400px;
+        background-color: #ffffff;
+        z-index: 1000;
+        left: calc(100% - 1050px);
+        top: calc(100% - 550px);
+        border-radius: 0 5px 0 0;
+    }
+
+        .m-dialog .dialog-content .dialog-content-infor {
+            padding: 24px;
+            height: 350px;
+        }
+
+        .m-dialog .dialog-content .dialog-content-tools {
+            height: 50px;
+            display: flex;
+            background-color: silver;
+            align-items: center;
+            
+        }
+
+    .m-dialog .dialog-header {
+        display: flex;
+    }
+
+        .m-dialog .dialog-header .dialog-header-close {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+            .m-dialog .dialog-header .dialog-header-close:hover {
+                border-radius: 0 5px 0 0;
+            }
+
+            .m-dialog .dialog-header .dialog-header-close button {
+                width: 40px;
+                height: 40px;
+                border-radius: 0 5px 0 0;
+                border-bottom-left-radius: 5px;
+                outline: none;
+                border: 1px;
+                cursor: pointer;
+                background-color: white;
+                background-image: url('../../content/icon/x.svg');
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 20px;
+                opacity: 0.7;
+            }
+
+                .m-dialog .dialog-header .dialog-header-close button:hover {
+                    background-color: #ccc;
+                }
+
+        .m-dialog .dialog-header .dialog-header-title {
+            font-size: 16px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+    .m-dialog .dialog-content .dialog-infor-person {
+        width: 100%;
+        margin-top: 10px;
+        display: flex;
+    }
+
+.dialog-content .dialog-infor-person .person-images {
+    width: 33%;
+    text-align: center;
+}
+
+.dialog-content .dialog-infor-person .person-form1 {
+    width: 33%;
+}
+
+.dialog-content .dialog-infor-person .person-form2 {
+    width: 34%;
+}
+
+.dialog-infor-person .person-images .person-images-upload {
+    width: 120px;
+    height: 120px;
+    border: 1px solid black;
+    border-radius: 60px;
+    background-image: url('../../content/icon/person-icondewdwd.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 130px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.m-dialog .dialog-content .dialog-infor-comany {
+    display: flex;
+}
+
+    .m-dialog .dialog-content .dialog-infor-comany .comany1 {
+        width: 66%;
+    }
+
+    .m-dialog .dialog-content .dialog-infor-comany .comany2 {
+        width: 34%;
+    }
+
+.dialog-content-tools .dialog-box {
+    position: absolute;
+    right: 0;
+    display: flex;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+    .dialog-content-tools .dialog-box .tools-body{
+        margin-left: 10px;
     }
