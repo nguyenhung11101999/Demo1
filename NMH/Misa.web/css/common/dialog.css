@@ -1,6 +1,6 @@
 ﻿.m-dialog {
     position: relative;
-    display: flex;
+    display: none;
 }
 
     .m-dialog .dialog-modal {
@@ -17,17 +17,17 @@
     .m-dialog .dialog-content {
         position: absolute;
         width: 800px;
-        height: 400px;
+        height: 450px;
         background-color: #ffffff;
         z-index: 1000;
         left: calc(100% - 1050px);
-        top: calc(100% - 550px);
+        top: calc(100% - 570px);
         border-radius: 0 5px 0 0;
     }
 
         .m-dialog .dialog-content .dialog-content-infor {
             padding: 24px;
-            height: 350px;
+            height: 400px;
         }
 
         .m-dialog .dialog-content .dialog-content-tools {
@@ -37,6 +37,7 @@
             align-items: center;
             
         }
+
 
     .m-dialog .dialog-header {
         display: flex;

@@ -11,12 +11,13 @@ class CustomerJS extends BaseJS {
         /*this.loadData();*/
         super();
     }
+    setApiRouter() {
+        this.apiRouter = "/api/customers";
+    }
     /**
      * Set đường dẫn API cho customer
      * */
-    setDataUrl() {
-        this.getDataUrl = "http://api.manhnv.net/api/customers";
-    }
+
     /**
     * Load Data len web
     * CreatedBy: NMHung (04/02/2020)

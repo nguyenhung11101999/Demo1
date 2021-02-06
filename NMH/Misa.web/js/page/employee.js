@@ -11,6 +11,11 @@ class EmployeeJS extends BaseJS {
         /*this.loadData();*/
         super();
     }
+
+    setApiRouter() {
+        this.apiRouter = "/api/employees";
+    }
+
     /**
        * Set đường dẫn API cho employee
        * */

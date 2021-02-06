@@ -16,3 +16,25 @@
     outline: none;
     border: 1px solid #bbbbbb;
 }
+input.border-red {
+    border: 1px solid #FF4747;
+}
+.loading-modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #000;
+    opacity: 0.5;
+    z-index: 999;
+}
+.loading-icon {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    top: calc(50% -1005px);
+    left: calc(50% -1005px);
+    border: 2px solid red;
+}
