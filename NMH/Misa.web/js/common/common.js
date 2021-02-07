@@ -30,3 +30,21 @@ function formatMoney(money) {
     }
     return "";
 }
+
+
+/**
+ * Xóa hết dữ liệu và class css cho input, select
+ * */
+function clearAllData() {
+    $('input[type="text"], input[type="date"], input[type="email"]').val(null);
+    $('input[type="text"], input[type="date"], input[type="email"]').removeClass();
+}
+
+
+function formatDateIntoInput(value) {
+    var now = new Date(value);
+    var day = ("0" + now.getDate()).slice(-2);
+    var month = ("0" + (now.getMonth() + 1)).slice(-2);
+    return now.getFullYear() + "-" + (month) + "-" + (day);
+
+}

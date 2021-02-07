@@ -1,25 +1,35 @@
-﻿.text-align-right{
+﻿.text-align-right {
     text-align: right;
 }
-.text-align-center{
+
+.text-align-center {
     text-align: center;
 }
+
 .m-row {
     margin-top: 5px;
 }
-.m-lable{
+
+.m-lable {
     margin-bottom: 2px;
 }
+
 .m-input {
     padding: 10px 16px;
     border-radius: 4px;
     outline: none;
     border: 1px solid #bbbbbb;
 }
+
 input.border-red {
     border: 1px solid #FF4747;
 }
-.loading-modal{
+
+.loading {
+    display: none;
+}
+
+.loading-modal {
     position: fixed;
     top: 0;
     left: 0;
@@ -29,12 +39,26 @@ input.border-red {
     opacity: 0.5;
     z-index: 999;
 }
+
 .loading-icon {
     position: absolute;
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    top: calc(50% -1005px);
-    left: calc(50% -1005px);
+    top: calc(50% - 50px);
+    /* top: calc(50% -30px);*/
+    /*left: calc(50% -15px);*/
     border: 2px solid red;
+    border-bottom: none;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }

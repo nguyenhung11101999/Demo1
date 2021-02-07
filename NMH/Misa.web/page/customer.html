@@ -20,234 +20,236 @@
     <link href="../css/common/pagingbar.css" rel="stylesheet" />
 </head>
 <body>
-    <div class="navbar">
-        <div class="logo-site">
-            <div class="logo-box">
-                <div class="logo-site-1"></div>
-                <div class="logo-site-2"></div>
-            </div>
-        </div>
-        <div class="navbar-content">
-            <div class="nav-item">
-                <div class="nav-item-icon"><i class="fas fa-align-justify"></i></div>
-                <div class="nav-item-text"><a href="customer.html">Khách hàng</a></div>
-            </div>
-            <div class="nav-item">
-                <div class="nav-item-icon"><i class="fas fa-align-justify"></i></div>
-                <div class="nav-item-text"><a href="employee.html">Nhan vien</a></div>
-            </div>
-            <div class="nav-item">
-                <div class="nav-item-icon"><i class="fas fa-align-justify"></i></div>
-                <div class="nav-item-text">Lap ho so dien tu</div>
-            </div>
-        </div>
-    </div>
-    <div class="body">
-        <div class="header">
-            <div class="header-1">
-                <div class="header-1-title">Cong ty co phan MISA</div>
-                <select>
-                    <option></option>
-                    <option></option>
-                    <option></option>
-                </select>
-            </div>
-            <div class="header-account">
-                <div class="header-account-1"><i class="fas fa-user-circle"></i></div>
-                <div class="header-account-2">Nguyễn Mạnh Hùng</div>
-                <div class="header-account-3"><i class="fas fa-grip-lines"></i></div>
-            </div>
-        </div>
-        <div class="content">
-            <div class="header-content">
-                <div class="title">Danh sach nhan vien</div>
-                <div class="content-feature">
-                    <button id="btnAdd" class="m-btn btn-default">
-                        <div class="m-btn-icon icon-add"><i class="fas fa-chess-pawn"></i></div>
-                        <div class="btn-text">Them nhan vien</div>
-                    </button>
+    <div class="wapper">
+        <div class="navbar">
+            <div class="logo-site">
+                <div class="logo-box">
+                    <div class="logo-site-1"></div>
+                    <div class="logo-site-2"></div>
                 </div>
             </div>
-            <div class="filter-bar">
-                <div class="filter-left">
-                    <input class="icon-search input-search" style="width: 200px;" type="text" placeholder="Tim kiem theo ma, Ten nhan vien" />
+            <div class="navbar-content">
+                <div class="nav-item">
+                    <div class="nav-item-icon"><i class="fas fa-align-justify"></i></div>
+                    <div class="nav-item-text"><a href="customer.html">Khách hàng</a></div>
+                </div>
+                <div class="nav-item">
+                    <div class="nav-item-icon"><i class="fas fa-align-justify"></i></div>
+                    <div class="nav-item-text"><a href="employee.html">Nhan vien</a></div>
+                </div>
+                <div class="nav-item">
+                    <div class="nav-item-icon"><i class="fas fa-align-justify"></i></div>
+                    <div class="nav-item-text">Lap ho so dien tu</div>
+                </div>
+            </div>
+        </div>
+        <div class="body">
+            <div class="header">
+                <div class="header-1">
+                    <div class="header-1-title">Cong ty co phan MISA</div>
                     <select>
-                        <option>Phong dao tao</option>
-                        <option>Phong dao tao</option>
-                        <option>Phong dao tao</option>
+                        <option></option>
+                        <option></option>
+                        <option></option>
                     </select>
                 </div>
-                <div class="filter-right">
-                    <button id="btnRefresh" class="m-btn-refresh m-second-button"></button>
+                <div class="header-account">
+                    <div class="header-account-1"><i class="fas fa-user-circle"></i></div>
+                    <div class="header-account-2">Nguyễn Mạnh Hùng</div>
+                    <div class="header-account-3"><i class="fas fa-grip-lines"></i></div>
                 </div>
             </div>
-            <div class="grid grid-employee">
-                <table cellspacing="0">
-                    <colgroup>
-                        <col style="width: 150px;" />
-                        <col style="width: 200px;" />
-                        <col style="width: 100px;" />
-                        <col style="width: 100px;" />
-                        <col style="width: 150px;" />
-                        <col style="width: 50px;" />
-                        <col style="width: 150px;" />
-                    </colgroup>
-                    <thead>
-                        <tr>
-                            <th fieldName="CustomerCode">Ma nhan vien</th>
-                            <th fieldName="FullName">Ho ten</th>
-                            <th fieldName="Gender">Gioi tinh</th>
-                            <th fieldName="DateOfBirth" formatType="ddmmyyy">Ngay sinh</th>
-                            <th fieldName="PhoneNumber">So dien thoai</th>
-                            <th fieldName="Email">Email</th>
-                            <th fieldName="Address">Dia chi</th>
-                            <th fieldName="DebitAmount" formatType="Date">So tien lo</th>
-                            <th fieldName="MemberCardCode">Ma the thanh vien</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <!--<tr>
-                            <td>001</td>
-                            <td>Nguyen Manh Hung</td>
-                            <td>Nam</td>
-                            <td>11/10/1999</td>
-                            <td>0213092109</td>
-                            <td>Hai duong</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>001</td>
-                            <td>Nguyen Manh Hung</td>
-                            <td>Nam</td>
-                            <td>11/10/1999</td>
-                            <td>0213092109</td>
-                            <td>Hai duong</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>-->
-                    </tbody>
-                </table>
-            </div>
-            <div class="paging-bar">
-                <div class="paging-bar-1">Hien thi 1 - 1/100 lao dong</div>
-                <div class="paging-bar-2">
-                    <div>
-                        <div><button class="btn-cle btn-clf"><</button></div>
-                        <div><button class="btn-cle">1</button></div>
-                        <div><button class="btn-cle">2</button></div>
-                        <div><button class="btn-cle">3</button></div>
-                        <div><button class="btn-cle">4</button></div>
-                        <div><button class="btn-cle">5</button></div>
-                        <div><button class="btn-cle btn-clf">></button></div>
+            <div class="content">
+                <div class="header-content">
+                    <div class="title">Danh sach nhan vien</div>
+                    <div class="content-feature">
+                        <button id="btnAdd" class="m-btn btn-default">
+                            <div class="m-btn-icon icon-add"><i class="fas fa-chess-pawn"></i></div>
+                            <div class="btn-text">Them nhan vien</div>
+                        </button>
                     </div>
                 </div>
-                <div class="paging-bar-3">
-                    <select>
-                        <option>15/trang</option>
-                        <option>30/trang</option>
-                    </select>
+                <div class="filter-bar">
+                    <div class="filter-left">
+                        <input class="icon-search input-search" style="width: 200px;" type="text" placeholder="Tim kiem theo ma, Ten nhan vien" />
+                        <select>
+                            <option>Phong dao tao</option>
+                            <option>Phong dao tao</option>
+                            <option>Phong dao tao</option>
+                        </select>
+                    </div>
+                    <div class="filter-right">
+                        <button id="btnRefresh" class="m-btn-refresh m-second-button"></button>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="m-dialog dialog-detail">
-            <div class="dialog-modal"></div>
-            <div class="dialog-content">
-                <div class="dialog-content-infor">
-                    <div class="dialog-header">
-                        <div class="dialog-header-title">Thông tin khách hàng</div>
-                        <div class="dialog-header-close">
-                            <button class="m-close-dialog"></button>
+                <div class="grid grid-employee">
+                    <table cellspacing="0">
+                        <colgroup>
+                            <col style="width: 150px;" />
+                            <col style="width: 200px;" />
+                            <col style="width: 100px;" />
+                            <col style="width: 100px;" />
+                            <col style="width: 150px;" />
+                            <col style="width: 50px;" />
+                            <col style="width: 150px;" />
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th fieldName="CustomerCode">Ma nhan vien</th>
+                                <th fieldName="FullName">Ho ten</th>
+                                <th fieldName="Gender">Gioi tinh</th>
+                                <th fieldName="DateOfBirth" formatType="ddmmyyy">Ngay sinh</th>
+                                <th fieldName="PhoneNumber">So dien thoai</th>
+                                <th fieldName="Email">Email</th>
+                                <th fieldName="Address">Dia chi</th>
+                                <th fieldName="DebitAmount" formatType="Date">So tien lo</th>
+                                <th fieldName="MemberCardCode">Ma the thanh vien</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!--<tr>
+                                <td>001</td>
+                                <td>Nguyen Manh Hung</td>
+                                <td>Nam</td>
+                                <td>11/10/1999</td>
+                                <td>0213092109</td>
+                                <td>Hai duong</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>001</td>
+                                <td>Nguyen Manh Hung</td>
+                                <td>Nam</td>
+                                <td>11/10/1999</td>
+                                <td>0213092109</td>
+                                <td>Hai duong</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>-->
+                        </tbody>
+                    </table>
+                </div>
+                <div class="paging-bar">
+                    <div class="paging-bar-1">Hien thi 1 - 1/100 lao dong</div>
+                    <div class="paging-bar-2">
+                        <div>
+                            <div><button class="btn-cle btn-clf"><</button></div>
+                            <div><button class="btn-cle">1</button></div>
+                            <div><button class="btn-cle">2</button></div>
+                            <div><button class="btn-cle">3</button></div>
+                            <div><button class="btn-cle">4</button></div>
+                            <div><button class="btn-cle">5</button></div>
+                            <div><button class="btn-cle btn-clf">></button></div>
                         </div>
                     </div>
-                    <div class="dialog-infor-person">
-                        <div class="person-images">
-                            <div class="person-images-upload"></div>
-                            <div>Vui lòng chọn ảnh có định dạng JPG, PNG, SVG, Doc.x, Pixel</div>
+                    <div class="paging-bar-3">
+                        <select>
+                            <option>15/trang</option>
+                            <option>30/trang</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="m-dialog dialog-detail">
+                <div class="dialog-modal"></div>
+                <div class="dialog-content">
+                    <div class="dialog-content-infor">
+                        <div class="dialog-header">
+                            <div class="dialog-header-title">Thông tin khách hàng</div>
+                            <div class="dialog-header-close">
+                                <button class="m-close-dialog"></button>
+                            </div>
                         </div>
-                        <div class="person-form1">
-                            <div class="m-row">
-                                <div class="m-lable">Mã khách hàng</div>
-                                <div m-control><input id="txtCustomerCode" type="text" class="input-required" required fieldName="CustomerCode" /></div>
+                        <div class="dialog-infor-person">
+                            <div class="person-images">
+                                <div class="person-images-upload"></div>
+                                <div>Vui lòng chọn ảnh có định dạng JPG, PNG, SVG, Doc.x, Pixel</div>
                             </div>
-                            <div class="m-row">
-                                <div class="m-lable">Mã thẻ thành viên</div>
-                                <div m-control><input id="txtMemberCardCode" type="text" fieldName="MemberCardCode" /></div>
-                            </div>
-                            <div class="m-row">
-                                <div class="m-lable">Ngày sinh</div>
-                                <div m-control><input id="dtDateOfBirth" type="date" fieldName="DateOfBirth" /></div>
-                            </div>
-                        </div>
-                        <div class="person-form2">
-                            <div class="m-row">
-                                <div class="m-lable">Họ tên</div>
-                                <div m-control><input id="txtFullName" type="text" required fieldName="FullName" /></div>
-                            </div>
-                            <div class="m-row">
-                                <div class="m-lable">Nhóm khách hàng</div>
-                                <div m-control>
-                                    <select id="cbxCustomerGroup" class="m-input" fieldName="CustomerGroupid">
-                                        <!-- <option value="19165ed7-212e-21c4-0428-030d4265475f">Khách VIP</option>
-                                        <option value="7a0b757e-41eb-4df6-c6f8-494a84b910f4">Khách thường</option>
-                                        <option value="3631011e-4559-4ad8-b0ad-cb989f2177da">Khách vãng lai</option>-->
-                                    </select>
+                            <div class="person-form1">
+                                <div class="m-row">
+                                    <div class="m-lable">Mã khách hàng</div>
+                                    <div m-control><input id="txtCustomerCode" type="text" class="input-required" required fieldName="CustomerCode" /></div>
+                                </div>
+                                <div class="m-row">
+                                    <div class="m-lable">Mã thẻ thành viên</div>
+                                    <div m-control><input id="txtMemberCardCode" type="text" fieldName="MemberCardCode" /></div>
+                                </div>
+                                <div class="m-row">
+                                    <div class="m-lable">Ngày sinh</div>
+                                    <div m-control><input id="dtDateOfBirth" type="date" fieldName="DateOfBirth" /></div>
                                 </div>
                             </div>
-                            <div class="m-row">
-                                <div class="m-lable">Giới tính</div>
-                                <div m-control>
-                                    <form>
-                                        <input type="radio" name="sex" value="1" checked fieldName="Gender">Nam
-                                        <input type="radio" name="sex" value="0" fieldName="Gender">Nữ
-                                    </form>
+                            <div class="person-form2">
+                                <div class="m-row">
+                                    <div class="m-lable">Họ tên</div>
+                                    <div m-control><input id="txtFullName" type="text" required fieldName="FullName" /></div>
+                                </div>
+                                <div class="m-row">
+                                    <div class="m-lable">Nhóm khách hàng</div>
+                                    <div m-control>
+                                        <select id="cbxCustomerGroup" class="m-input" fieldName="CustomerGroupId">
+                                            <!--<option value="19165ed7-212e-21c4-0428-030d4265475f">Khách VIP</option>
+                                            <option value="7a0b757e-41eb-4df6-c6f8-494a84b910f4">Khách thường</option>
+                                            <option value="3631011e-4559-4ad8-b0ad-cb989f2177da">Khách vãng lai</option>-->
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="m-row">
+                                    <div class="m-lable">Giới tính</div>
+                                    <div m-control>
+                                        <form>
+                                            <input type="radio" name="sex" id="nam" value="1"  fieldName="Gender">Nam
+                                            <input type="radio" name="sex" id="nu" value="0" fieldName="Gender">Nữ
+                                        </form>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="dialog-infor-comany">
-                        <div class="comany1">
-                            <div class="m-row">
-                                <div class="m-lable">Email</div>
-                                <div m-control><input id="txtEmail" type="email" fieldName="Email" /></div>
+                        <div class="dialog-infor-comany">
+                            <div class="comany1">
+                                <div class="m-row">
+                                    <div class="m-lable">Email</div>
+                                    <div m-control><input id="txtEmail" type="email" fieldName="Email" /></div>
+                                </div>
+                                <div class="m-row">
+                                    <div class="m-lable">Tên công ty</div>
+                                    <div m-control><input type="text" fieldName="CompanyName" /></div>
+                                </div>
                             </div>
-                            <div class="m-row">
-                                <div class="m-lable">Tên công ty</div>
-                                <div m-control><input type="text" fieldName="CompanyName" /></div>
+                            <div class="comany2">
+                                <div class="m-row">
+                                    <div class="m-lable">Số điện thoại</div>
+                                    <div m-control><input id="txtPhoneNumber" type="text" required fieldName="PhoneNumber" /></div>
+                                </div>
+                                <div class="m-row">
+                                    <div class="m-lable">Mã số thuế</div>
+                                    <div m-control><input type="text" fieldName="CompanyTaxCode" /></div>
+                                </div>
                             </div>
                         </div>
-                        <div class="comany2">
+                        <div class="dialog-infor-comany2">
                             <div class="m-row">
-                                <div class="m-lable">Số điện thoại</div>
-                                <div m-control><input id="txtPhoneNumber" type="text" required fieldName="PhoneNumber" /></div>
-                            </div>
-                            <div class="m-row">
-                                <div class="m-lable">Mã số thuế</div>
-                                <div m-control><input type="text" fieldName="CompanyTaxtCode" /></div>
+                                <div class="m-lable">Địa chỉ</div>
+                                <div m-control><input id="txtAddress" type="text" fieldName="Address" /></div>
                             </div>
                         </div>
                     </div>
-                    <div class="dialog-infor-comany2">
-                        <div class="m-row">
-                            <div class="m-lable">Địa chỉ</div>
-                            <div m-control><input id="txtAddress" type="text" fieldName="Address" /></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="dialog-content-tools">
-                    <div class="dialog-box">
-                        <div class="tools-body"><button class="m-btn btn-default m-close-dialog">Huy</button></div>
-                        <div class="tools-body">
-                            <button id="btnSave" class="m-btn btn-default">
-                                <div class="m-btn-icon icon-add"><i class="fas fa-chess-pawn"></i></div>
-                                <div class="btn-text">Lưu</div>
-                            </button>
+                    <div class="dialog-content-tools">
+                        <div class="dialog-box">
+                            <div class="tools-body"><button class="m-btn btn-default m-close-dialog">Huy</button></div>
+                            <div class="tools-body">
+                                <button id="btnSave" class="m-btn btn-default">
+                                    <div class="m-btn-icon icon-add"><i class="fas fa-chess-pawn"></i></div>
+                                    <div class="btn-text">Lưu</div>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>

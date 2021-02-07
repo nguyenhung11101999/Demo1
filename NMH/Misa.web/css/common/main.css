@@ -1,9 +1,11 @@
 ﻿body {
-    display: flex;
     margin: 0px;
     padding: 0px;
     font-family: NotoSerifJP-Regular;
     font-size: 13px;
+}
+.wapper{
+    display: flex;
 }
 @font-face {
     font-family: 'NotoSerifJP-Black';
