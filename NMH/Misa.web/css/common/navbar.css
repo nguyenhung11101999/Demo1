@@ -1,0 +1,63 @@
+﻿.navbar {
+    width: 220px;
+    height: 100vh;
+    background-color: #ffffff;
+    border-right: 1px solid #e5e5e5;
+}
+
+    .navbar .logo-site, .navbar .logo-box {
+        display: flex;
+        width: 100%;
+        height: 60px;
+    }
+
+    .navbar .logo-box {
+        padding: 24px 0px 0px 24px;
+    }
+
+    .navbar .navbar-content {
+        width: 100%;
+    }
+
+    .navbar .logo-box .logo-site-1 {
+        width: 24px;
+        height: 24px;
+        background-image: url('../../content/icon/iconfinder_05-web_essential_3401825.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .navbar .logo-box .logo-site-2 {
+        width: 100%;
+        height: 24px;
+        background-image: url('../../content/icon/logo_misa.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .navbar .navbar-content .nav-item {
+        display: flex;
+        padding-left: 24px;
+        height: 44px;
+        background-color: white;
+        cursor: pointer;
+        line-height: 44px;
+    }
+
+        .navbar .navbar-content .nav-item:hover {
+            background-color: #e5e5e5;
+        }
+
+
+.nav-item .nav-item-icon {
+    /*width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    margin: auto 0;
+    margin-right: 10px;*/
+    /*background-image: url();*/
+    /* background-size: contain;*/
+}
+.navbar-content .nav-item .nav-item-text{
+    margin-left: 8px;
+}

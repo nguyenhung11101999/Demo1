@@ -1,0 +1,33 @@
+﻿.header {
+    height: 60px;
+    border-bottom: 1px solid #e5e5e5;
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.header-1 {
+    display: flex;
+}
+
+    .header-1 select {
+        border: none;
+        margin-left: 5px;
+    }
+
+.header .header-account {
+    display: flex;
+    position: absolute;
+    right: 16px;
+    align-items: center;
+    height: 40px;
+}
+
+    .header .header-account .header-account-1 {
+        margin-right: 10px;
+    }
+
+    .header .header-account .header-account-2 {
+        margin-right: 10px;
+    }
